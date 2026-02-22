@@ -24,7 +24,6 @@
 **Photopea reserves a ~320px column on the right (sometimes left) for ads — even when you have an adblocker.**  
 This userscript prevents the space from ever being allocated by spoofing the browser width threshold.
 
-No CSS overrides. No visual hacks. No layout flicker.
 
 ---
 
