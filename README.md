@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://www.photopea.com/promo/icon512.png" width="72" alt="Photopea"/>
-  <h1>Photopea Fullscreen</h1>
+  <h1>Photopea True Fullscreen</h1>
   <p><strong>Removes the gray ad sidebar on Photopea.com</strong><br>
   Works with & without adblockers.</p>
 
@@ -62,7 +62,7 @@ The result is a clean, true fullscreen workspace with zero layout conflicts.
 Photopea and its creator Ivan Kutskir own all rights to the Photopea service and branding.  
 This project is an independent, unofficial userscript that modifies client-side behavior only. It is not affiliated with, endorsed by, or distributed by the original project.
 
-If the owner or maintainers of Photopea have any concerns, please contact me via open an issue and they will be addressed promptly, including removal if requested.
+If the owner or maintainers of Photopea have any concerns, please open an issue on this repository or contact me directly at `ghostlybliss@gmail.com`. Requests will be addressed promptly, including removal if requested.
 
 If you enjoy Photopea, please support the original project.
 
@@ -73,3 +73,5 @@ If you enjoy Photopea, please support the original project.
 - Repository: https://github.com/ghostlybliss/Photopea-Fullscreen-2026e  
 - Issues: https://github.com/ghostlybliss/Photopea-Fullscreen-2026e/issues  
 - Greasy Fork: https://greasyfork.org/en/scripts/567062-photopea-true-fullscreen  
+
+Enjoy your clean Photopea.
