@@ -37,7 +37,7 @@ No CSS fighting. No MutationObserver loops. No synthetic resize events. One prop
 [![Install from Greasy Fork](https://img.shields.io/badge/Install_from-GreasyFork-00ff9d?style=for-the-badge&logo=greasyfork&logoColor=white)](https://greasyfork.org/en/scripts/567062-photopea-true-fullscreen)
 
 ### Option 2 — Direct from GitHub
-[Click here to install](https://raw.githubusercontent.com/ghostlybliss/Photopea-Fullscreen-2026e/main/photopea-fullscreen.user.js)
+[Click here to install](https://raw.githubusercontent.com/ghostlybliss/Photopea-Fullscreen-2026/main/photopea-fullscreen.user.js)
 
 ### Option 3 — Manual
 1. Open Tampermonkey / Violentmonkey Dashboard  
