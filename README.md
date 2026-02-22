@@ -17,7 +17,6 @@
 
 <img width="2559" height="1237" alt="Screenshot 2026-02-21 180155" src="https://github.com/user-attachments/assets/486ba41b-40cd-4024-9bb6-c21be97045c8" />
 
-## What it does
 
 Photopea reserves a ~320px column on the right (sometimes left) for ads — even when you have an adblocker. This script uses a single `innerWidth` spoof to make Photopea think your window is wider than its sidebar threshold. It never allocates the space to begin with.
 
