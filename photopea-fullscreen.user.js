@@ -11,6 +11,8 @@
 // @license      MIT
 // @homepageURL  https://github.com/ghostlybliss/photopea-fullscreen
 // @supportURL   https://github.com/ghostlybliss/photopea-fullscreen/issues
+// @downloadURL  https://raw.githubusercontent.com/ghostlybliss/photopea-fullscreen/main/photopea-fullscreen.user.js
+// @updateURL    https://raw.githubusercontent.com/ghostlybliss/photopea-fullscreen/main/photopea-fullscreen.user.js
 // ==/UserScript==
 
 /*
@@ -55,4 +57,5 @@
     document.addEventListener('DOMContentLoaded', applySpoof);
 
     console.log('%c[ghostlybliss] Photopea True Fullscreen v1.0 — active.', 'color:#00ff9d;font-weight:bold;');
+
 })();
