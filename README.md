@@ -43,17 +43,6 @@ This userscript prevents the space from ever being allocated by spoofing the bro
 
 ---
 
-## How it works
-
-Photopea checks your browser window width during initialization.  
-If it detects a smaller viewport, it reserves space for advertising.
-
-This script adjusts that value during load, ensuring the sidebar is never created.
-
-The result is a clean, true fullscreen workspace with zero layout conflicts.
-
----
-
 ## Attribution & Disclaimer
 
 [Photopea](https://www.photopea.com/) and its creator Ivan Kutskir own all rights to the Photopea service and branding.  
