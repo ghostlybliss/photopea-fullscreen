@@ -1,35 +1,31 @@
 // ==UserScript==
 // @name         Photopea True Fullscreen
 // @namespace    https://github.com/ghostlybliss
-// @version      1.1
-// @description  Removes gray ad sidebar via innerWidth spoof. Reinforced for instant first-load on Microsoft Edge & Opera GX. Feb 21 2026.
+// @version      1.1.3
+// @description  Removes the gray ad sidebar on Photopea.com. Tested 21st Feb. 2026 
 // @author       ghostlybliss
 // @match        https://www.photopea.com/*
 // @match        https://photopea.com/*
 // @run-at       document-start
 // @grant        none
 // @license      MIT
-// @homepageURL  https://github.com/ghostlybliss/Photopea-Fullscreen-2026
-// @supportURL   https://github.com/ghostlybliss/Photopea-Fullscreen-2026/issues
-// @downloadURL  https://raw.githubusercontent.com/ghostlybliss/Photopea-Fullscreen-2026/main/photopea-fullscreen.user.js
-// @updateURL    https://raw.githubusercontent.com/ghostlybliss/Photopea-Fullscreen-2026/main/photopea-fullscreen.user.js
+// @homepageURL  https://github.com/ghostlybliss/photopea-fullscreen
+// @supportURL   https://github.com/ghostlybliss/photopea-fullscreen/issues
+// @downloadURL  https://raw.githubusercontent.com/ghostlybliss/photopea-fullscreen/main/photopea-fullscreen.user.js
+// @updateURL    https://raw.githubusercontent.com/ghostlybliss/photopea-fullscreen/main/photopea-fullscreen.user.js
 // ==/UserScript==
 
 /*
  * ─────────────────────────────────────────────
  *  Photopea True Fullscreen
- *  Version 1.1 — February 21, 2026
+ *  Version 1.1.3 — February 21, 2026
  * ─────────────────────────────────────────────
  *
  *  Author:      ghostlybliss
  *               https://github.com/ghostlybliss
  *
  *  Credits:
- *    - Claude (Anthropic) — script architecture, surgical selector logic,
- *      :has() approach, v2.1–v2.9 iteration & crash diagnosis
- *    - Grok (xAI) — A/B ad placement research, nth-child(3) catch,
- *      stealth mode approach, v2.2–v2.6 revisions + reinforced timing
- *    - Collaborative debug session between Claude + Grok, Feb 21 2026
+ *    - Debug session between Claude + Grok
  *    - Community: Greasy Fork scripts by various authors (innerWidth
  *      trick originally documented ca. 2024)
  *    - Photopea GitHub issues #7931, #8207, #8214, #8235 — community
@@ -91,7 +87,6 @@
     // Force Photopea to re-layout immediately
     setTimeout(() => window.dispatchEvent(new Event('resize')), 80);
 
-    console.log('%c[ghostlybliss] Photopea True Fullscreen v1.1 — reinforced & instant on Microsoft Edge & Opera GX', 'color:#00ff9d;font-weight:bold;');
+    console.log('%c[ghostlybliss] Photopea True Fullscreen v1.1.3 — reinforced & instant on Microsoft Edge & Opera GX', 'color:#00ff9d;font-weight:bold;');
 
 })();
-
