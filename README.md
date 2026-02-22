@@ -35,9 +35,9 @@ No CSS fighting. No MutationObserver loops. No synthetic resize events. One prop
 1. Make sure Tampermonkey is installed
 2. Click the link below — Tampermonkey will prompt you to install it
 
-```
-https://raw.githubusercontent.com/ghostlybliss/photopea-fullscreen/main/photopea-fullscreen.user.js
-```
+
+[Tampermonkey](https://raw.githubusercontent.com/ghostlybliss/photopea-fullscreen/main/photopea-fullscreen.user.js)
+
 
 ### Option C — Manual
 1. Tampermonkey → Dashboard → **+**
