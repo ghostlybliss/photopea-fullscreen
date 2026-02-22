@@ -39,7 +39,6 @@ This userscript prevents the space from ever being allocated by spoofing the bro
 1. Open Tampermonkey / Violentmonkey  
 2. Create a new script  
 3. Paste `photopea-fullscreen.user.js`  
-4. Save → hard refresh Photopea (`Ctrl + Shift + R`)
 
 ---
 
