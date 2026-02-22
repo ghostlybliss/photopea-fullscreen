@@ -1,14 +1,14 @@
 <div align="center">
   <img src="https://www.photopea.com/promo/icon512.png" width="72" alt="Photopea"/>
   <h1>Photopea True Fullscreen</h1>
-  <p><strong>Removes the gray ad sidebar on <a href="https://www.photopea.com">Photopea.com</a></strong><br>
+  <p><strong>Removes the gray ad sidebar on Photopea.com</strong><br>
   Works with & without adblockers.</p>
 
   <a href="https://greasyfork.org/en/scripts/567062-photopea-true-fullscreen">
     <img src="https://img.shields.io/badge/Install_from-GreasyFork-00ff9d?style=flat-square&logo=greasyfork&logoColor=white" alt="Install from Greasy Fork">
   </a>
   <a href="https://github.com/ghostlybliss/Photopea-Fullscreen-2026e/releases">
-    <img src="https://img.shields.io/badge/version-1.1-00ff9d?style=flat-square&labelColor=111" alt="Version 1.1">
+    <img src="https://img.shields.io/badge/version-1.1.9-00ff9d?style=flat-square&labelColor=111" alt="Version 1.1.9">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-00ff9d?style=flat-square&labelColor=111" alt="MIT License">
@@ -24,14 +24,13 @@
      src="https://github.com/user-attachments/assets/486ba41b-40cd-4024-9bb6-c21be97045c8" />
 
 **Photopea reserves a ~320px column on the right (sometimes left) for ads — even when you have an adblocker.**  
-This script uses a single `innerWidth` spoof to make Photopea think your window is wider than its sidebar threshold.  
-**It never allocates the space to begin with.**
+This userscript prevents the space from ever being allocated by spoofing the browser width threshold.
 
-No CSS fighting. No MutationObserver loops. No synthetic resize events. One property override. That's it.
+No CSS overrides. No visual hacks. No layout flicker.
 
 ---
 
-## Install -
+## Install
 
 ### Option 1 — One-Click (Recommended)
 [![Install from Greasy Fork](https://img.shields.io/badge/Install_from-GreasyFork-00ff9d?style=for-the-badge&logo=greasyfork&logoColor=white)](https://greasyfork.org/en/scripts/567062-photopea-true-fullscreen)
@@ -40,34 +39,37 @@ No CSS fighting. No MutationObserver loops. No synthetic resize events. One prop
 [Click here to install](https://raw.githubusercontent.com/ghostlybliss/Photopea-Fullscreen-2026/main/photopea-fullscreen.user.js)
 
 ### Option 3 — Manual
-1. Open Tampermonkey / Violentmonkey Dashboard  
-2. Click **+** (create new script)  
-3. Paste the contents of [`photopea-fullscreen.user.js`](photopea-fullscreen.user.js)  
+1. Open Tampermonkey / Violentmonkey  
+2. Create a new script  
+3. Paste `photopea-fullscreen.user.js`  
 4. Save → hard refresh Photopea (`Ctrl + Shift + R`)
 
 ---
 
 ## How it works
 
-Photopea checks your browser window size the instant the page loads.  
-If it thinks the window is “too narrow”, it adds a big gray ad column on the side — even if you use an ad blocker.
+Photopea checks your browser window width during initialization.  
+If it detects a smaller viewport, it reserves space for advertising.
 
-This script tricks Photopea by quietly telling it:  
-**“Actually, your window is 350 pixels wider than it really is.”**
+This script adjusts that value during load, ensuring the sidebar is never created.
 
-Because of that little white lie, Photopea never creates the gray sidebar at all.  
-No hiding, no fighting, no flickering — it’s just… never there.
+The result is a clean, true fullscreen workspace with zero layout conflicts.
 
-We made the trick extra fast on first load (especially for Edge and Opera GX), so it works perfectly the very first time you open Photopea — no refresh needed.
+---
 
-One tiny lie → completely clean fullscreen. That’s the whole magic.
+## Attribution & Disclaimer
+
+Photopea and its creator Ivan Kutskir own all rights to the Photopea service and branding.  
+This project is an independent, unofficial userscript that modifies client-side behavior only. It is not affiliated with, endorsed by, or distributed by the original project.
+
+If the owner or maintainers of Photopea have any concerns, please contact me via open an issue and they will be addressed promptly, including removal if requested.
+
+If you enjoy Photopea, please support the original project.
 
 ---
 
 ## Source Code & Support
 
-- Full source + updates: [github.com/ghostlybliss/Photopea-Fullscreen-2026e](https://github.com/ghostlybliss/Photopea-Fullscreen-2026e)
-- Report issues: [GitHub Issues](https://github.com/ghostlybliss/Photopea-Fullscreen-2026e/issues)
-- Greasy Fork page: [greasyfork.org/scripts/567062](https://greasyfork.org/en/scripts/567062-photopea-true-fullscreen)
-
-Enjoy your clean Photopea! 🚀
+- Repository: https://github.com/ghostlybliss/Photopea-Fullscreen-2026e  
+- Issues: https://github.com/ghostlybliss/Photopea-Fullscreen-2026e/issues  
+- Greasy Fork: https://greasyfork.org/en/scripts/567062-photopea-true-fullscreen  
