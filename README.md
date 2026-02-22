@@ -64,7 +64,7 @@ This project is an independent, unofficial userscript that modifies client-side 
 
 If the owner or maintainers of Photopea have any concerns, please open an issue on this repository or contact me directly at `ghostlybliss@gmail.com`. Requests will be addressed promptly, including removal if requested.
 
-If you enjoy Photopea, please support the original project.
+If you enjoy Photopea, please support the original project by subscribing to Photopea's Premium membership.
 
 ---
 
