@@ -3,7 +3,7 @@
 // @namespace   https://github.com/ghostlybliss
 // @version     1.1.9
 // @description Compact theme menu below; performance optimizations and reliability fixes.
-// @author      ghostlybliss (you)
+// @author      ghostlybliss
 // @match       https://www.photopea.com/*
 // @match       https://photopea.com/*
 // @run-at      document-start
@@ -298,3 +298,4 @@ body, html, .flexrow.app { background: var(--pp-bg) !important; color: var(--pp-
   else window.addEventListener('DOMContentLoaded', () => requestAnimationFrame(init), { once: true });
 
 })();
+
